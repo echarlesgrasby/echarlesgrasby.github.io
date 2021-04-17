@@ -54,7 +54,7 @@ html_sidebars = {
 #    'posts/**': ['postcard.html', 'recentposts.html', 'archives.html'],
 }
 
-blog_baseurl = 'localhost:8000/blog/'
+blog_baseurl = 'https://echarlesgrasby.github.io/blog/'
 blog_title = 'Eric Charles Grasby'
 blog_path = 'posts'
 fontawesome_included = True
