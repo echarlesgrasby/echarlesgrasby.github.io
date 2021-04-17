@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://echarlesgrasby.github.io/blog/</id>
   <title>Eric Charles Grasby</title>
-  <updated>2021-04-17T20:18:27.942525+00:00</updated>
+  <updated>2021-04-17T23:39:06.989036+00:00</updated>
   <link href="https://echarlesgrasby.github.io/blog/"/>
-  <link href="https://echarlesgrasby.github.io/blog/posts/atom.xml" rel="self"/>
+  <link href="https://echarlesgrasby.github.io/blog/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.17">ABlog</generator>
   <entry>
-    <id>https://echarlesgrasby.github.io/blog/posts/2021/ab_initio.html</id>
+    <id>https://echarlesgrasby.github.io/blog/blog/2021/ab_initio/</id>
     <title>an ab initio blog post</title>
     <updated>2021-04-16T00:00:00+00:00</updated>
     <author>
@@ -15,7 +15,7 @@
     </author>
     <content type="html">&lt;p&gt;A blog post “from first principles”&lt;/p&gt;
 </content>
-    <link href="https://echarlesgrasby.github.io/blog/posts/2021/ab_initio.html" rel="alternate"/>
+    <link href="https://echarlesgrasby.github.io/blog/blog/2021/ab_initio/" rel="alternate"/>
     <summary>A blog post “from first principles”</summary>
     <category term="first" label="first"/>
     <category term="&quot;abinitio&quot;" label="&quot;ab initio&quot;"/>
