@@ -11,8 +11,8 @@ BUILDDIR      = _build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-blog:
-	sphinx-autobuild --ignore _build -b html . _build/
+test:
+	sphinx-autobuild --ignore _build -b dirhtml . _build/dirhtml --port 8000
 
 .PHONY: help Makefile
 

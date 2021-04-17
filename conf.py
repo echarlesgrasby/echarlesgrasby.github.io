@@ -56,9 +56,9 @@ html_sidebars = {
 
 blog_baseurl = 'https://echarlesgrasby.github.io/blog/'
 blog_title = 'Eric Charles Grasby'
-blog_path = 'posts'
+blog_path = 'blog'
 fontawesome_included = True
-blog_post_pattern = 'posts/*/*'
+blog_post_pattern = 'blog/*/*'
 post_redirect_refresh = 1
 post_auto_image = 1
 post_auto_excerpt = 1
