@@ -19,12 +19,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'echarlesgrasby_blog'
+project = u'Eric Charles Grasby'
 copyright = u'2021, Eric Charles Grasby'
 author = u'Eric Charles Grasby'
 
 # The short X.Y version
-version = u''
+version = u'1.0.0'
 # The full version, including alpha/beta/rc tags
 release = u''
 
@@ -40,8 +40,28 @@ release = u''
 # ones.
 extensions = [
     'sphinx.ext.githubpages',
-    'myst_parser'
+    'myst_parser',
+    'ablog'
 ]
+
+html_sidebars = {
+    'index': ['me.html'],
+    'about': ['me.html']
+#    'publications': ['hello.html'],
+#    'projects': ['hello.html'],
+#    'talks': ['hello.html'],
+#    'posts': ['tagcloud.html', 'archives.html'],
+#    'posts/**': ['postcard.html', 'recentposts.html', 'archives.html'],
+}
+
+blog_baseurl = 'localhost:8000/blog/'
+blog_title = 'Eric Charles Grasby'
+blog_path = 'posts'
+fontawesome_included = True
+blog_post_pattern = 'posts/*/*'
+post_redirect_refresh = 1
+post_auto_image = 1
+post_auto_excerpt = 1
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -78,14 +98,15 @@ pygments_style = None
 # a list of builtin themes.
 #
 html_theme = 'pydata_sphinx_theme'
-
+html_favicon = '_static/favicon.ico'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
 html_theme_options = {
     "github_url": "https://github.com/echarlesgrasby/",
-    "search_bar_text": "Search this site..."
+    "search_bar_text": "Search this site...",
+    "search_bar_position": "navbar",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -178,5 +199,6 @@ epub_title = project
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
-
-# -- Extension configuration -------------------------------------------------
+def setup(app):
+    app.add_css_file('custom.css')
+#-- Extension configuration -------------------------------------------------
