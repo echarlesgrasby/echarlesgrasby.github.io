@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>localhost:8000/blog/</id>
+  <title>Eric Charles Grasby</title>
+  <updated>2021-04-17T18:55:32.358222+00:00</updated>
+  <link href="localhost:8000/blog/"/>
+  <link href="localhost:8000/blog/posts/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.17">ABlog</generator>
+  <entry>
+    <id>localhost:8000/blog/posts/2021/ab_initio.html</id>
+    <title>an ab initio blog post</title>
+    <updated>2021-04-16T00:00:00-05:00</updated>
+    <author>
+      <name>Eric C. Grasby</name>
+    </author>
+    <content type="html">&lt;p&gt;A blog post “from first principles”&lt;/p&gt;
+</content>
+    <link href="localhost:8000/blog/posts/2021/ab_initio.html" rel="alternate"/>
+    <summary>A blog post “from first principles”</summary>
+    <category term="first" label="first"/>
+    <category term="&quot;abinitio&quot;" label="&quot;ab initio&quot;"/>
+    <published>2021-04-16T00:00:00-05:00</published>
+  </entry>
+</feed>
