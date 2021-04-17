@@ -27,12 +27,13 @@ jobs:
       run: |
         make html
     # Remove the existing gh-pages branch
-    - name: Delete existing release branch
-      run: |
-        git branch -D gh-pages
+    #- name: Delete existing release branch
+    #  run: |
+    #    git branch -D gh-pages
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.5.9
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_build/dirhtml
+        publish_branch: gh-pages
