@@ -1,5 +1,5 @@
-# Minimal makefile for Sphinx documentation
-#
+# Minimal Makefile to complete a Sphinx build
+# This Makefile is called from the .github/workflows/deploy.yml file via a GitHub Action
 
 # You can set these variables from the command line.
 SPHINXOPTS    = 
@@ -11,6 +11,7 @@ BUILDDIR      = _build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+# For local tests prior to pushing to GitHub
 test:
 	sphinx-autobuild --ignore _build -b dirhtml . _build/dirhtml --port 8000
 
