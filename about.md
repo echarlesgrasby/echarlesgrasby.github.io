@@ -4,10 +4,25 @@ Like my introduction page says, I'm from Arkansas. I've spent most of my life in
 
 ## Youth
 
-I had an interesting up-bringing in that I was able to both:
+I had an interesting up-bringing in that I was able to witness the weird, "alien" experience that was the decade from 2000 - 2010. 
 
-* spend most of my formative years around remnants of "the old world", and
-* witness the weird, alien experience that was the decade from 2000 - 2010
+### Remnants of the "old world"
+
+When I say "remnants of the old world", I mean it in the sense that I didn't grow up around a common suburban-meets-corporate household that many folks, my age, in America did. My dad is a machinist, so I grew up around a lot of other machinists, iron-workers, welders, and the like. Many of these trades, while important, have seen a marked decline in enrollment from members of the **Millenial** and **Gen Z** generations. Many of the people my age (myself included) have ended up pursuing careers in software engineering, I.T., liberal arts, or the humanities (literature, visual and performing arts, etc.). See my blog post regarding this here: [**Should I Go To College????**](blog/2021/college_yn.md)
+
+Due to this lack of labor replenishment, many small to midsize machine shops are starting to close their doors as their older workforce begins to retire. While I did consider following the footsteps of my dad and becoming a machinist, I ultimately decided to go to college. 
+
+All in all, it is a decision that I'm glad to have pursued; it exposed me to a different side of the world that I would not have otherwise known (academia).
+
+### The 2000s
+
+I feel a certain kinship with people that were born in the late 90s like I was. We each got to grow up in the decade from 2000 - 2010, which was quite literally a unique experience that may never be seen again. While the digital age may have sparked decades prior, the 2000s ushered in a new era of technology that many of us take for granted: **the modern internet.** Gone away were the days of webrings, GeoCities, and AOL Instant Messenger; long live MySpace and the smartphone.
+
+Okay, maybe not "long live" MySpace, but at least recognize what it meant for many of us at that time- an outlet to experience the crazy-weird cultural boom that was happening amongst us. 
+
+Emo makeup, checkered Vans, *Riot!* by Paramore, the "Numa Numa" song (which you should know is actually a Romanian song named *Dragostea Din Tei*), anime music videos cut to Evanesence's *Bring Me To Life*, and this new streaming platform called _YouTube_- it was all part of this weird blip in history where we **texted each other ringtones and burned CDs**. 
+
+It was a pretty interesting period of time to grow up in. Whatever some may say about it, it's important to remember that at least it wasn't plagued by *TikTok and Fortnite.*
 
 ## College Days
 
